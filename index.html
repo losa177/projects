@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>马奕飞 · 项目经历</title>
+<style>
+:root{--fg:#1a1a1a;--mut:#5c5c5c;--line:#d8d8d8;--bg:#fff;--page:#f0f0ef;--acc:#111}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--fg);
+ font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Noto Sans CJK SC",sans-serif;
+ line-height:1.75;font-size:16px;-webkit-text-size-adjust:100%}
+.wrap{max-width:880px;margin:0 auto;background:var(--bg);padding:44px 46px 72px;
+ box-shadow:0 1px 3px rgba(0,0,0,.09);min-height:100vh}
+.hd{border-bottom:2px solid var(--acc);padding-bottom:15px;margin-bottom:8px}
+.hd .nm{font-size:30px;font-weight:700;letter-spacing:1px}
+.hd .rl{font-size:16px;color:var(--mut);margin-left:12px}
+.hd .ct{font-size:14px;color:var(--mut);margin-top:8px}
+.intro{color:#333;margin:22px 0 8px}
+.grp{margin-top:34px}
+.grp h2{font-size:18px;font-weight:700;margin:0 0 6px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.grp .note{color:var(--mut);font-size:13.5px;margin:0 0 16px}
+.card{display:block;border:1px solid var(--line);padding:16px 18px;margin-bottom:12px;
+ text-decoration:none;color:inherit;background:#fff;transition:border-color .15s,background .15s}
+.card.on{display:block;cursor:pointer}
+a.card.on:hover{border-color:#666;background:#fafafa}
+.card.off{opacity:.62;cursor:default}
+.card .t{font-weight:700;font-size:16px;margin-bottom:5px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.card .d{color:var(--mut);font-size:13.5px;line-height:1.65}
+.card .a{color:var(--mut);font-size:12.5px;margin-top:8px}
+.card .a b{color:var(--acc);font-weight:600}
+.badge{display:inline-block;font-size:11.5px;color:var(--mut);border:1px solid var(--line);
+ border-radius:99px;padding:1px 9px;font-weight:400;letter-spacing:.5px}
+.badge.ok{color:#fff;background:var(--acc);border-color:var(--acc)}
+.foot{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);
+ color:var(--mut);font-size:13px}
+@media(max-width:700px){
+ .wrap{padding:22px 16px 60px}
+ body{font-size:15px}
+ .hd .nm{font-size:24px}
+ .hd .rl{display:block;margin:2px 0 0}
+ h1{font-size:21px}h2{font-size:18px}h3{font-size:16px}
+}
+</style></head><body>
+<div class="wrap">
+<div class="hd">
+<div><span class="nm">马奕飞</span><span class="rl">结构设计工程师</span></div>
+<div class="ct">17758039617　|　1606357750@qq.com</div>
+</div>
+
+<p class="intro">机械设计制造及其自动化本科，2 年机器人与低空飞行器结构研发经验。以下为三个项目的完整设计资料：每份资料包含「成果展示」（结果、图表与指标达成）和「工作记录」（设计计算过程与迭代复盘）。所有页面在浏览器中直接打开即可阅读，无需下载或安装任何软件。</p>
+
+<div class="grp">
+<h2>项目经历</h2>
+<div class="note">点击项目卡片进入详细介绍页面，可在「成果展示 / 工作记录」两个页签间切换。</div>
+
+<a class="card on" href="project-1.html">
+<div class="t">项目一　高动态四足机器人单腿执行系统 <span class="badge ok">可查看</span></div>
+<div class="d">3 主动自由度肘式单腿。传动回差 0.067°（指标 0.15°）、力控带宽 12.5 Hz（指标 10 Hz）、模态仿真-实测偏差 &lt;0.5%、CNC 工艺降本 22%。含关键特性识别、DFMEA、控制计划与两项现场问题的 8D 闭环。</div>
+<div class="a">成果展示 9 页 · 工作记录 19 页　|　2025-04 至 2026-06</div></a>
+
+<a class="card on" href="project-2.html">
+<div class="t">项目二　折叠式物流四旋翼无人机 <span class="badge ok">可查看</span></div>
+<div class="d">450 轴距可折叠四旋翼。续航 10.1 min、1.5 m 跌落冲击 37.5 g（限值 50 g）、温升 40 ℃ 预紧衰减 6.5%（指标 8%）、机臂共振抑制 −26 dB。含注塑转产批量决策与注塑飞边、嵌件滑丝的 8D 闭环。</div>
+<div class="a">成果展示 7 页 · 工作记录 12 页　|　2024-09 至 2025-08</div></a>
+
+<a class="card on" href="project-3.html">
+<div class="t">项目三　两轮自平衡机器人 <span class="badge ok">可查看</span></div>
+<div class="d">STM32 平衡车通用控制平台。5° 倾角 0.33 s 收敛、互补滤波机动段 RMS 1.34°、IMU 隔振传递率 0.17。含标定 SOP 与参数版本留档规范。</div>
+<div class="a">成果展示 4 页 · 工作记录 8 页　|　2023-03 至 2023-05</div></a>
+</div>
+
+<div class="foot">本页面为静态网页，可直接在手机或电脑浏览器中阅读，无需安装任何软件。如需 PDF 或 Word 版本，请联系上方邮箱。</div>
+</div></body></html>
